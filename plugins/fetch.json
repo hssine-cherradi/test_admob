@@ -1,32 +1,16 @@
 {
-    "cordova-plugin-admobpro": {
+    "cordova-plugin-device": {
         "source": {
-            "type": "registry",
-            "id": "cordova-plugin-admobpro"
+            "type": "local",
+            "path": "C:\\Users\\H-dev\\AppData\\Local\\Intel\\XDK\\xdk\\components\\server\\cordova\\cordova-plugins\\cordova-plugin-device"
         },
         "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-extension": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-extension"
-        },
-        "is_top_level": false,
         "variables": {}
     },
     "cordova-plugin-splashscreen": {
         "source": {
             "type": "local",
             "path": "C:\\Users\\H-dev\\AppData\\Local\\Intel\\XDK\\xdk\\components\\server\\cordova\\cordova-plugins\\cordova-plugin-splashscreen"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-device": {
-        "source": {
-            "type": "local",
-            "path": "C:\\Users\\H-dev\\AppData\\Local\\Intel\\XDK\\xdk\\components\\server\\cordova\\cordova-plugins\\cordova-plugin-device"
         },
         "is_top_level": true,
         "variables": {}
@@ -39,19 +23,18 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-admob-simple": {
+    "cordova-plugin-admob": {
         "source": {
-            "type": "git",
-            "url": "https://github.com/sunnycupertino/cordova-plugin-admob-simple",
-            "subdir": "."
+            "type": "registry",
+            "id": "cordova-plugin-admob"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-admob-sdklibs": {
+    "cordova-admobsdk": {
         "source": {
             "type": "registry",
-            "id": "cordova-admob-sdklibs"
+            "id": "cordova-admobsdk"
         },
         "is_top_level": false,
         "variables": {}

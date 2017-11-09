@@ -16,12 +16,12 @@
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
-        "cordova-plugin-admob-simple": {
+        "cordova-plugin-admob": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
     "dependent_plugins": {
-        "cordova-admob-sdklibs": {
+        "cordova-admobsdk": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     }

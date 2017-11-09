@@ -16,13 +16,13 @@
     <allow-intent href="market:*"/>
     <access origin="*"/>
 </platform>
-<preference name="phonegap-version" value="cli-6.5.0" />
+<preference name="phonegap-version" value="cli-6.2.0" />
 <preference name="xwalkMultipleApk" value="false" />
 <plugin name="cordova-plugin-statusbar" spec="2.1.3"/>
 <plugin name="cordova-plugin-device" spec="1.1.2"/>
 <plugin name="cordova-plugin-splashscreen" spec="3.2.2"/>
-<plugin name="cordova-admob-sdklibs" spec="2.1.6"/>
-<plugin name="cordova-plugin-admob-simple" spec="https://github.com/sunnycupertino/cordova-plugin-admob-simple"/> <!-- If available via Cordova registry; consider changing to an NPM reference. -->
+<plugin name="cordova-admobsdk" spec="1.0.4"/>
+<plugin name="cordova-plugin-admob" spec="3.2.4"/>
 <plugin name="cordova-plugin-whitelist" spec="1.2.2"/>
 <platform  name="ios">
     <!-- below requires the splash screen plugin -->
