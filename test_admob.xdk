@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "cfb0291a-ff76-4848-9243-b1d85894ba12",
-      "lastModifiedDate": 1510252315295,
+      "lastModifiedDate": 1510254677246,
       "creationDate": 1510252067487
     },
     "testDirectory": "test",
@@ -28,10 +28,11 @@
         "runtime_": "Cordova 3.x",
         "name_": "Android",
         "preferences_": {
-          "android-minSdkVersion": "14",
+          "android-minSdkVersion": "16",
           "android-targetSdkVersion": "23",
           "android-installLocation": "auto",
-          "android-signed": true
+          "android-signed": true,
+          "AndroidLaunchMode": "singleTop"
         },
         "isActive_": true,
         "certificateId_": "JwPIHo2zoEGIaXrUTYQ_iw2",
@@ -46,8 +47,62 @@
           "navigation": []
         },
         "addlPermissions_": "",
-        "icons_": [],
-        "splashes_": [],
+        "icons_": [
+          {
+            "density": "ldpi",
+            "relPath": "package-assets/36.png",
+            "width": 36,
+            "height": 36
+          },
+          {
+            "density": "mdpi",
+            "relPath": "package-assets/48.png",
+            "width": 48,
+            "height": 48
+          },
+          {
+            "density": "hdpi",
+            "relPath": "package-assets/72.png",
+            "width": 72,
+            "height": 72
+          },
+          {
+            "density": "xhdpi",
+            "relPath": "package-assets/96.png",
+            "width": 96,
+            "height": 96
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "package-assets/320-426.png",
+            "density": "ldpi",
+            "height": 426,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/320-470.png",
+            "density": "mdpi",
+            "height": 470,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/480-640.png",
+            "density": "hdpi",
+            "height": 640,
+            "width": 480,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/720-960.png",
+            "density": "xhdpi",
+            "height": 960,
+            "width": 720,
+            "orientation": "portrait"
+          }
+        ],
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "signed_": true,
@@ -62,7 +117,7 @@
           "deployment-target": "8.0",
           "ios-configuration": "adhoc"
         },
-        "isActive_": true,
+        "isActive_": false,
         "certificateId_": "",
         "appName_": "test_admob",
         "appID_": "not.yet.specified",
@@ -86,7 +141,7 @@
         "runtime_": "Cordova 3.x",
         "name_": "Windows8",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "certificateId_": "",
         "appName_": "test_admob",
         "appID_": "not.yet.specified",
